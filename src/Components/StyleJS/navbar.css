@@ -1,0 +1,113 @@
+.Navigation {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #0a0a08;
+    z-index: 3;
+    /* box-shadow: 0px 5px 10px var(--secondary-color); */
+}
+.logo {
+    padding: 2vh .5vw;
+    color: var(--secondary-color);
+    font-size: xx-large;
+    text-shadow: 0px 0px 30px var(--secondary-color), 0px 0px 20px var(--secondary-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+.logo span { color: var(--tertiary-color); text-shadow: none; text-decoration: none;}
+
+.BurgerMenu {
+    display: flex;
+    flex-direction: row;
+}
+.PageLinks {
+    display: flex;
+    flex-grow: 1; /* Allow this div to grow to take up available space */
+    text-align: center; /* Center the content horizontally */
+    justify-content: center;
+    align-items: center;
+}
+.navBtn {
+    flex-grow: 1;
+    color: var(--tertiary-color);
+    background: transparent;
+    margin: 0px 2vw;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.navBtn:hover {
+    color: var(--secondary-color);
+    text-shadow: 0px 0px 10px;
+}
+.active { color: var(--secondary-color);}
+.nav-btn {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--tertiary-color);
+    visibility: hidden;
+    opacity: 1;
+    width: 0;
+}
+@media only screen and (max-width: 900px) {
+    .navBtn { font-size: small;}
+    .logo {font-size: large;}
+}
+
+@media only screen and (max-width: 650px) {
+    .nav-btn{
+        visibility: visible;
+        opacity: 1;
+        font-size: xx-large;
+        width: auto;
+        position: absolute;
+        right: 0;
+    }
+    .BurgerMenu {
+        position: absolute;
+        top:  0;
+        left: 0;
+        width: 100vw;
+        height:  100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #0a0a08;
+        transition: 1s;
+        transform: translateY(-100vh);
+        z-index: 99;
+    }
+    .PageLinks {
+        display: flex;
+        flex-direction: column;
+        top: 200px;
+        width: 95%;
+        height: 10px;
+        flex-grow: 0.5;
+    }
+    .navBtn {
+        width: 100%;
+        border: 0;
+        border-bottom: 2px solid --tertiary-color;
+        font-size: large;
+        height: 10%;
+    }
+
+    .responsive_navbar { transform: none;}
+
+    .navBtn:hover {
+        color: #2f4f4f;
+    }
+    .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        color: var(--tertiary-color);
+    }
+}

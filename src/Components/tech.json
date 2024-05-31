@@ -1,0 +1,38 @@
+[
+    {
+        "index": 1,
+        "cubeName": "WordPress",
+        "stackDesc": "At Webmatic Studio, we leverage WordPress for its versatility and ease of use. This powerful content management system enables us to create dynamic, customizable websites tailored to your business needs. With a vast array of plugins and themes, WordPress ensures your site is both functional and visually appealing, offering seamless user experiences and robust SEO capabilities.",
+        "image": "src/Components/Media/logos/WordPress-Logo.png"
+    },
+    {
+        "index": 2,
+        "cubeName": "Adobe Illustrator",
+        "stackDesc": "We use Illustrator for vector graphics and illustration, providing scalable and high-quality visuals. Perfect for logos, icons, and complex illustrations, Illustrator's advanced features enable us to produce detailed and versatile designs. These graphics maintain their clarity at any size, ensuring consistency across all your digital and print media.",
+        "image": "src/Components/Media/logos/Adobe-Illustrator.jpg"
+    },
+    {
+        "index": 3,
+        "cubeName": "Adobe Premiere Pro",
+        "stackDesc": "Incorporating video into your digital strategy is essential, and Adobe Premiere Pro is our go-to for professional video editing. This software allows us to craft polished and engaging video content, from promotional videos to tutorials and more. With Premiere Pro, we enhance your storytelling, delivering high-quality videos that captivate your audience.",
+        "image": "src/Components/Media/logos/Adobe-Premiere-Pro-logo.png"
+    },
+    {
+        "index": 4,
+        "cubeName": "Three js",
+        "stackDesc": "To bring your projects to life with 3D graphics, we employ Three.js, a powerful JavaScript library. Three.js enables us to create stunning visualizations and interactive 3D content directly in the browser. Whether for product showcases, immersive experiences, or innovative design elements, Three.js adds a cutting-edge dimension to your digital presence.",
+        "image": "src/Components/Media/logos/threejs-logo.png"
+    },
+    {
+        "index": 5,
+        "cubeName": "Adobe Photoshop",
+        "stackDesc": "For all our graphic design needs, Photoshop is an indispensable tool. This industry-standard software allows us to create, edit, and enhance images with precision. From website graphics to marketing materials, Photoshop ensures your visual content is striking and professional, contributing to a cohesive and compelling brand identity.",
+        "image": "src/Components/Media/logos/photoshop-logo.png"
+    },
+    {
+        "index": 6,
+        "cubeName": "React",
+        "stackDesc": "Our team utilizes React to build interactive and high-performance user interfaces. React's component-based architecture allows for reusable code and efficient updates, ensuring your web applications are fast, scalable, and easy to maintain. With React, we create responsive and dynamic web experiences that engage users and enhance overall functionality.",
+        "image": "src/Components/Media/logos/react-logo.jpg"
+    }
+]

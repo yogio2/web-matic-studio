@@ -1,0 +1,13 @@
+.techCanvas {
+    height: 60vh;
+    width: 100%;
+    color: orange;
+}
+.TechText {
+    position: absolute;
+    top: 3em;
+    left: -2em;
+}
+.desc {
+    width: 80vw;
+}

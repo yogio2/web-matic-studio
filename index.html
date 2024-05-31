@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Web Matic Studio</title>
+    <style>
+      html,body {
+        margin: 0;
+        padding: 0;
+      }
+      main { display: block;}
+      body { overflow-y: hidden;}
+      .splash { 
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 6;
+        width: 100vw;
+        height: 100dvh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #0a0a08;
+        transition: all 0.5s;
+      }
+      .splash > img {
+        position: relative;
+        display: block;
+        width: 15em;
+        height: 15em;
+      }
+      .splashout { animation: splashOut 2s forwards linear;}
+      @keyframes splashOut {
+        from {transform: scale(1); opacity: 1;}
+        to { transform: scale(20); opacity: 0;}        
+      }
+      @keyframes fadeOut {
+        from {opacity: 1;}
+        to{opacity: 0;}
+      }
+      .fadeout { animation: fadeOut 1s 1 forwards;}
+      #root { position: relative; z-index: 5; transition: all 0.5s;}
+
+      .splashText {
+        position: relative;
+        color: #0a0a08;
+        letter-spacing: 1.5vw;
+        font-size: 3dvh;
+        -webkit-text-stroke: 2px #dddddd;
+        text-transform: uppercase;
+      }
+      .splashText::before {
+        content: attr(data-text); 
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: #e0000d;
+        -webkit-text-stroke: 0vw #dddddd;
+        border-right: 2px solid #e0000d;
+        overflow: hidden;
+        animation: loadColor 2s linear alternate infinite;
+      }
+      @keyframes loadColor {
+        from { width: 0;}
+        to { width: 101%;}        
+      }
+      #pre-loader {
+        transition: all 2s;
+      }
+    </style>
+  </head>
+  <body id="body">
+    <div class="splash" id="pre-loader">
+      <h1 class="splashText" id="splashText" data-text="WebMaticStudio">WebMaticStudio</h1>
+      <h3 id="loading"> Loading . . . </h3>
+      <img id="iconLogo" src="src\Components\Media\bitmap.svg" alt="">
+      
+    </div>
+    <main>
+      <canvas id="matrixCanvas"></canvas>
+      <div id="root"></div>
+    </main>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      var text = document.getElementById("splashText");
+      var loady = document.getElementById("loading");
+      var loader = document.getElementById("pre-loader");
+      var bodyscroll = document.getElementById("body");
+      var logo = document.getElementById("iconLogo")
+
+      window.addEventListener('load', function(){
+        text.classList.add("fadeout");
+        loady.classList.add("fadeout");
+        logo.classList.add("splashout");
+        setTimeout(function(){
+          bodyscroll.style.overflowY = "visible";
+          loader.style.display = "none";
+        }, 1000);
+      });
+    </script>
+    <script>
+      // Define the function to create the matrix effect
+    function createMatrixEffect() {
+      const canvas = document.getElementById("matrixCanvas");
+      const ctx = canvas.getContext("2d");
+
+      // Making the canvas full screen
+      canvas.height = document.documentElement.scrollHeight;
+      canvas.width = window.innerWidth;
+
+      // Chinese characters - taken from the unicode charset
+      let matrix = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}";
+      // Converting the string into an array of single characters
+      matrix = matrix.split("");
+
+      const font_size = 10;
+      const columns = canvas.width / font_size; // Number of columns for the rain
+      // Initialize drops array
+      let drops = [];
+      for (let x = 0; x < columns; x++) {
+        drops.push(1);
+      }
+
+      // Drawing the characters
+      function draw() {
+        // Black BG for the canvas
+        // Translucent BG to show trail
+        ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        ctx.fillStyle = "red"; // Green text
+        ctx.font = `${font_size}px arial`;
+
+        // Looping over drops
+        for (let i = 0; i < drops.length; i++) {
+          // A random chinese character to print
+          const text = matrix[Math.floor(Math.random() * matrix.length)];
+          // x = i * font_size, y = value of drops[i] * font_size
+          ctx.fillText(text, i * font_size, drops[i] * font_size);
+
+          // Sending the drop back to the top randomly after it has crossed the screen
+          // Adding a randomness to the reset to make the drops scattered on the Y axis
+          if (drops[i] * font_size > canvas.height && Math.random() > 0.975)
+            drops[i] = 0;
+
+          // Incrementing Y coordinate
+          drops[i]++;
+        }
+      }
+
+      const intervalId = setInterval(draw, 35);
+
+      // Return cleanup function
+      return () => {
+        clearInterval(intervalId);
+        // Optionally, remove canvas from the DOM
+        // document.body.removeChild(canvas);
+      };
+    }
+
+    // Call the function to create the matrix effect
+    createMatrixEffect();
+    </script>
+  </body>
+</html>

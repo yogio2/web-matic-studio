@@ -1,0 +1,58 @@
+.Booking {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.bookContainer {
+    width: 50em;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+.phases{ position: relative; width: 40%; margin: auto; height: 100%; background-color: rgba(224, 0, 13, .3); color: black; border-radius: 20px;}
+.bookform { width: 60%; margin: auto; height: 100%; background-color: rgba(255,255,255,.3); backdrop-filter: blur(2px); color: black; }
+.group {height: 100%; margin: auto; display: flex; flex-direction: column;}
+.grow { flex-grow: 1;}
+
+.finalForm {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+.finalForm label {
+    width: 5em;
+    display: inline-block;
+}
+.finalDets {
+    margin: 2em 1em;
+}
+.finalForm button {
+    margin: 0 auto;
+}
+input, textarea {
+    background-color: var(--tertiary-color);
+}
+
+@media only screen and (max-width: 650px) {
+    .bookContainer { flex-direction: column;}
+}
+
+.nextSubmit {
+    position: relative;
+    width: 100px;
+    margin: 0 auto;
+}
+.back {
+    position: relative;
+    width: 100px;
+    margin: 0 90px;
+}

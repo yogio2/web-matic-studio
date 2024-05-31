@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "name": "3D Model Page",
+        "price": "$35.00",
+        "images": [
+            {
+                "url": "src/Components/Templates/3Dmodel.png"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "404 Page",
+        "price": "$48.00",
+        "images": [
+            {
+                "url": "src/Components/Templates/404Page.png"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "AlgoMind AI",
+        "price": "$52.00",
+        "images": [
+            {
+                "url": "src/Components/Templates/AlgoMindAI.png"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Boutique-Home",
+        "price": "$41.00",
+        "images": [
+            {
+                "url": "src/Components/Templates/BoutiqueHome.png"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Brainwave",
+        "price": "$39.00",
+        "images": [
+            {
+                "url": "src/Components/Templates/Brainwave.png"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Browny",
+        "price": "$57.00",
+        "images": [
+            {
+                "url": "src/Components/Templates/Browny.png"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Calmar Solutions",
+        "price": "$46.00",
+        "images": [
+            {
+                "url": "src/Components/Templates/CalmarSolutions.png"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Deni",
+        "price": "$54.00",
+        "images": [
+            {
+                "url": "src/Components/Templates/Deni.png"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Landing Page",
+        "price": "$32.00",
+        "images": [
+            {
+                "url": "src/Components/Templates/LandingPage.png"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "NeoBot",
+        "price": "$50.00",
+        "images": [
+            {
+                "url": "src/Components/Templates/NeoBot.png"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Portfolio",
+        "price": "$44.00",
+        "images": [
+            {
+                "url": "src/Components/Templates/Portfolio.png"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Portfolio1",
+        "price": "$38.00",
+        "images": [
+            {
+                "url": "src/Components/Templates/Portfolio1.png"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Renovate",
+        "price": "$37.00",
+        "images": [
+            {
+                "url": "src/Components/Templates/Renovate.png"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "TravelSite",
+        "price": "$53.00",
+        "images": [
+            {
+                "url": "src/Components/Templates/TravelSite.png"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--primary-color);
+  --primary-color: transparent/*  #0a0a08 */;
+  --secondary-color: #e0000d;
+  --tertiary-color:  #fefefe;
+  --residue-color: #dddddd;
+  --swiper-pagination-bullet-inactive-color: #fff;
+  --swiper-pagination-bullet-inactive-opacity: 0.6;
+  --hue-degree: 45; 
+}
+*, *::before, *::after { box-sizing: border-box;}
+html, body {
+  margin: 0;
+  overflow-x: hidden;
+}
+#matrixCanvas {
+  position: fixed;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  width: 1600px;
+  z-index: 1;
+
+}
+#root {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.cotactContainer {
+  position: sticky;
+  top: 0;
+  background-color: var(--primary-color);
+}
+.Home {
+  position: relative;
+}
+
+@font-face {
+  font-family: 'Akira';
+  src: url('src/fonts/Akira Expanded Demo.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: CenturionRegular;
+  src: url(src/fonts/CenturionRegular.ttf);
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Akira'
+}
+p {
+  font-family: CenturionRegular;
+}
