@@ -31,8 +31,9 @@ const Services = () => {
     return (
         <div className="serve" tabIndex={0} ref={scrollableSectionRef}>
             <h2 className='headings' style={{textAlign:"center"}}> <span>Our</span> Services</h2>
+            <div class="scroll-down"></div>
             <section className="serveClass" id="AppDev">
-            <video className='bgVideo' muted autoPlay loop>
+                <video className='bgVideo' muted autoPlay loop>
                     <source src='src/Components/Media/WebDev.mp4' type='video/mp4'/>
                     Your browser does not support HTML video.
                 </video>

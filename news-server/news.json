@@ -1,19 +1,45 @@
 {
   "status": "ok",
-  "totalResults": 42,
+  "totalResults": 31,
   "articles": [
     {
       "source": {
-        "id": "ign",
-        "name": "IGN"
+        "id": null,
+        "name": "YouTube"
       },
-      "author": "Rebekah Valentine",
-      "title": "Sony Says PlayStation 5 Generation Is Its Most Profitable Console Generation to Date - IGN",
-      "description": "The PlayStation 5 generation is officially the most profitable Sony console generation to date, according to new data shared by the company.",
-      "url": "https://www.ign.com/articles/playstation-5-generation-represents-sonys-most-profitable-console-generation-to-date",
-      "urlToImage": "https://assets-prd.ignimgs.com/2024/04/29/ps5-faceplates-1714417413580.jpeg?width=1280",
-      "publishedAt": "2024-05-29T23:42:00Z",
-      "content": "The PlayStation 5 generation is officially the most profitable Sony console generation to date, according to new data shared by the company.\r\nThis comes from the company's Game &amp; Network Services… [+2728 chars]"
+      "author": null,
+      "title": "Silent Hill 2 - Official Gameplay Trailer | State of Play 2024 - IGN",
+      "description": "Check out this new Silent Hill 2 gameplay for the upcoming Silent Hill 2 remake of the 2001 psychological horror game from Bloober Team and Konami.Experience...",
+      "url": "https://www.youtube.com/watch?v=J3i1g_PHcaY",
+      "urlToImage": "https://i.ytimg.com/vi/J3i1g_PHcaY/maxresdefault.jpg",
+      "publishedAt": "2024-05-31T00:00:15Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Julie Coleman",
+      "title": "Cramer's Lightning Round: Beyond Meat is 'too risky' - CNBC",
+      "description": "\"Mad Money\" host Jim Cramer rings the lightning round bell, which means he's giving his answers to callers' stock questions at rapid speed.",
+      "url": "https://www.cnbc.com/2024/05/30/cramers-lightning-round-beyond-meat-is-too-risky.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/102086320-mad-money-lightning-2.jpg?v=1698277418&w=1920&h=1080",
+      "publishedAt": "2024-05-30T23:57:48Z",
+      "content": "Riot Platforms: \"No, look. If we're going to be in that, we're just going to go buy Bitcoin or go buy Ethereum, either one is fine with me.\"\r\nKLA: \"Its tripled, I want you to take out half...Take hal… [+660 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Kotaku"
+      },
+      "author": "Moises Taveras",
+      "title": "Monster Hunter Wilds Shown Off At PlayStation State Of Play - Kotaku",
+      "description": "Capcom has offered its first extended look at one of 2025’s most exciting RPGs",
+      "url": "https://kotaku.com/monster-hunter-wilds-state-of-play-1851510565",
+      "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/47e404f11fb1e1aae87bfe8e3edfc690.jpg",
+      "publishedAt": "2024-05-30T22:50:00Z",
+      "content": "The next highly anticipated title in Capcoms Monster Hunter series has finally reappeared at PlayStations recent State of Play showcase. The upcoming RPG, called Monster Hunter Wilds, appears to borr… [+2331 chars]"
     },
     {
       "source": {
@@ -21,181 +47,116 @@
         "name": "YouTube"
       },
       "author": null,
-      "title": "ASUS Already On Government's Radar for Warranty Issues - Gamers Nexus",
-      "description": "Grab the GN Foil CyberSkeleton V2 shirt! https://store.gamersnexus.net/products/limited-edition-foil-cyberskeleton2-cotton-tshirtWith ASUS' issues now spanni...",
-      "url": "https://www.youtube.com/watch?v=uYdtpU8FKO8",
-      "urlToImage": "https://i.ytimg.com/vi/uYdtpU8FKO8/maxresdefault.jpg",
-      "publishedAt": "2024-05-29T23:18:09Z",
+      "title": "Path Of Exile 2 - Official Console Deep Dive Gameplay Trailer - GameSpot",
+      "description": "Take a look into what it takes to bring a massive action role-playing game like Path Of Exile 2 onto console in this extended gameplay trailer.#pathofexile2 ...",
+      "url": "https://www.youtube.com/watch?v=H_phjtq-ZE8",
+      "urlToImage": "https://i.ytimg.com/vi/H_phjtq-ZE8/maxresdefault.jpg",
+      "publishedAt": "2024-05-30T22:46:35Z",
       "content": null
     },
     {
       "source": {
-        "id": null,
-        "name": "9to5google.com"
+        "id": "entertainment-weekly",
+        "name": "Entertainment Weekly"
       },
-      "author": "Andrew Romero",
-      "title": "Do you even want to buy the Galaxy Ring? [Poll] - 9to5Google",
-      "description": "Samsung is set to debut the Galaxy Ring in a matter of weeks. Knowing all that you do right now...",
-      "url": "http://9to5google.com/2024/05/29/galaxy-ring-poll/",
-      "urlToImage": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2024/02/samsung-galaxy-ring-4.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-      "publishedAt": "2024-05-29T22:15:00Z",
-      "content": "Samsung is set to debut the Galaxy Ring in a matter of weeks. Knowing all that you do right now before launch, would you buy the Galaxy Ring?\r\nRings as wearables are such a cool concept. One of the l… [+2297 chars]"
+      "author": "https://www.facebook.com/entertainmentweekly",
+      "title": "How 'Astro Bot' 2024 game taps into PlayStation multiverse (exclusive) - Entertainment Weekly News",
+      "description": "'Astro Bot' is getting its first full-fledged platform game for the PS5. Team Asobi exclusively tells EW how it's packed full of PlayStation universe Easter eggs.",
+      "url": "https://ew.com/astro-bot-2024-game-playstation-cameos-exclusive-8655347",
+      "urlToImage": "https://ew.com/thmb/nmT8X-6yD9ylAX3hRnvwLrddKAQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AstroBot05292401-63844b5c4c8041509435c8e229698d43.jpg",
+      "publishedAt": "2024-05-30T22:38:00Z",
+      "content": "Astro Bot has come a long way. Created by the Tokyo-based developers at Team Asobi, the character first arrived in 2013's The Playroom, a collection of augmented-reality games that featured this ador… [+4268 chars]"
     },
     {
       "source": {
-        "id": "the-verge",
-        "name": "The Verge"
+        "id": "ign",
+        "name": "IGN"
       },
-      "author": "Mia Sato",
-      "title": "Google confirms the leaked Search documents are real - The Verge",
-      "description": "Until yesterday, Google had refused to comment on the authenticity of the trove of documents, some of which may indicate what the company uses to rank sites in search.",
-      "url": "https://www.theverge.com/2024/5/29/24167407/google-search-algorithm-documents-leak-confirmation",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/n7BNboQ3QEk7QdxRu79cjuFwsj4=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/24016887/STK093_Google_02.jpg",
-      "publishedAt": "2024-05-29T22:12:18Z",
-      "content": "Google confirms the leaked Search documents are real\r\nGoogle confirms the leaked Search documents are real\r\n / Until today, the company refused to comment on the authenticity of the trove of document… [+2971 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "GSMArena.com"
-      },
-      "author": "Vlad",
-      "title": "Fitbit Ace LTE is a new smartwatch for kids, available on June 5 - GSMArena.com news - GSMArena.com",
-      "description": "It has no apps but a ton of built-in games and \"eejie\" creatures. Google's Fitbit has announced the Ace LTE smartwatch for kids ages 7+ today. This device...",
-      "url": "https://www.gsmarena.com/fitbit_ace_lte_is_a_new_smartwatch_for_kids_available_on_june_5-news-63059.php",
-      "urlToImage": "https://fdn.gsmarena.com/imgroot/news/24/05/fitbit-ace-lte-announced/-952x498w6/gsmarena_000.jpg",
-      "publishedAt": "2024-05-29T22:09:01Z",
-      "content": "Google's Fitbit has announced the Ace LTE smartwatch for kids ages 7+ today. This device \"transforms exercise into play, while also giving families peace of mind with reliable calling, messaging, and… [+2874 chars]"
+      "author": "Kat Bailey",
+      "title": "Marvel Rivals Is Coming to PS5 - State of Play 2024 - IGN",
+      "description": "Marvel Rivals, the new 6v6 free-to-play PvP game featuring numerous Marvel heroes and villains, is officially coming to PS5 and Xbox, with a beta set for July 2024.",
+      "url": "https://www.ign.com/articles/marvel-rivals-is-coming-to-ps5-state-of-play-2024",
+      "urlToImage": "https://assets-prd.ignimgs.com/2024/05/30/marvel-1717107901375.png?width=1280",
+      "publishedAt": "2024-05-30T22:33:56Z",
+      "content": "Marvel Rivals, the upcoming hero shooter from NetEase Games, is officially coming to PlayStation 5 and Xbox Series X|S. Previously announced for PC, Marvel Rivals is a 6v6 free-to-play PvP game with … [+947 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "9to5Mac"
+        "name": "Playstation.com"
       },
-      "author": "Filipe Espósito",
-      "title": "Apple Music launches special playlist to promote WWDC 2024, hints at new icon - 9to5Mac",
-      "description": "We’re less than two weeks away from WWDC 2024, another edition of Apple’s annual conference for developers. And although the...",
-      "url": "https://9to5mac.com/2024/05/29/apple-music-playlist-wwdc-2024/",
-      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/03/Apple-WWDC24-event-announcement-hero.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-      "publishedAt": "2024-05-29T21:21:00Z",
-      "content": "We’re less than two weeks away from WWDC 2024, another edition of Apple’s annual conference for developers. And although the main focus of the event is software, Apple has just launched a special pla… [+1797 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "GameSpot"
-      },
-      "author": "Steven Petite",
-      "title": "Tons Of PS5-Exclusive Games Are On Sale For Low Prices For PlayStation's Days Of Play - GameSpot",
-      "description": "The event runs through June 12, giving you a chance to save on games, accessories, consoles, and more.",
-      "url": "https://www.gamespot.com/articles/playstation-days-of-play-2024-ps5-deals/1100-6523751/",
-      "urlToImage": "https://www.gamespot.com/a/uploads/screen_kubrick/1595/15950357/4310133-ps5exclsuives.jpg",
-      "publishedAt": "2024-05-29T20:50:09Z",
-      "content": "Days of Play 2024 feature big discounts on just about every major PlayStation 5 exclusive. Most major retailers are participating in the annual Sony sales event, though eligible titles differ by reta… [+1350 chars]"
-    },
-    {
-      "source": {
-        "id": "techcrunch",
-        "name": "TechCrunch"
-      },
-      "author": "Sarah Perez",
-      "title": "Is Apple planning to 'sherlock' Arc? - TechCrunch",
-      "description": "With the release of iOS 18 later this year, Apple may again borrow ideas third-party apps. This time it's Arc that could be among those affected.",
-      "url": "https://techcrunch.com/2024/05/29/is-apple-planning-to-sherlock-arc/",
-      "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/01/Arc-Search-1.jpg?resize=1200,675",
-      "publishedAt": "2024-05-29T20:35:56Z",
-      "content": "One of the more innovative features of the mobile web browser Arc Search from The Browser Company is its ability to search the web for you and then spit back a summary of what it learned, instead of … [+3286 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Daniel Howley",
-      "title": "Google's generative AI fails 'will slowly erode our trust in Google' - Yahoo Finance",
-      "description": "Google's generative AI flubs could erode consumer trust in the company that's synonymous with finding accurate information online.",
-      "url": "https://finance.yahoo.com/news/googles-generative-ai-fails-will-slowly-erode-our-trust-in-google-202314852.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/p7OdGvdUhspjQNsLXqOnXg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDI-/https://s.yimg.com/os/creatr-uploaded-images/2024-05/4558bfb0-1df2-11ef-a7dd-4b24c174058d",
-      "publishedAt": "2024-05-29T20:24:29Z",
-      "content": "It was a busy Memorial Day weekend for Google (GOOG, GOOGL) as the company raced to contain the fallout from a number of wild suggestions by the new AI Overview feature in its Search platform. In cas… [+4942 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Chrome Unboxed"
-      },
-      "author": "Joe Humphrey",
-      "title": "ChromeOS 125 OOBE highlights AI features at initial setup - Chrome Unboxed",
-      "description": "ChromeOS 125 is here, and if you're unboxing a shiny new Chromebook Plus or power-washing your device, you'll notice a few pages during the onboarding setup dedicated to the new AI features available on Chromebook Plus! Google has been improving the OOBE (out…",
-      "url": "https://chromeunboxed.com/new-chromeos-125-oobe-highlights-ai-features-right-out-of-the-box/",
-      "urlToImage": "https://chromeunboxed.com/wp-content/uploads/2024/05/ChromebookPlus125OOBE.jpg",
-      "publishedAt": "2024-05-29T20:07:01Z",
-      "content": "ChromeOS 125 is here, and if youre unboxing a shiny new Chromebook Plus or power-washing your device, youll notice a few pages during the onboarding setup dedicated to the new AI features available o… [+3243 chars]"
-    },
-    {
-      "source": {
-        "id": "the-verge",
-        "name": "The Verge"
-      },
-      "author": "Allison Johnson",
-      "title": "Apple's new iPad Pro ad puts the focus back on creators - The Verge",
-      "description": "Apple’s first ad for the new M4 iPad Pro didn’t go over well. Now, instead of a hydraulic press, it’s taking a more human-centric approach with “Worlds Made on iPad.”",
-      "url": "https://www.theverge.com/2024/5/29/24167204/apple-ipad-pro-ad-creators-worlds-crushing-controversy",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/hSbQZYoJGFD0HneE8uuqAareC60=/0x0:2878x1502/1200x628/filters:focal(1439x751:1440x752)/cdn.vox-cdn.com/uploads/chorus_asset/file/25469466/Screenshot_2024_05_29_at_11.05.55_AM.png",
-      "publishedAt": "2024-05-29T19:57:36Z",
-      "content": "Apples new iPad Pro ad puts the focus back on creators\r\nApples new iPad Pro ad puts the focus back on creators\r\n / The animation-heavy Worlds Made on iPad spot leaves a better impression than Apples … [+1811 chars]"
-    },
-    {
-      "source": {
-        "id": "bloomberg",
-        "name": "Bloomberg"
-      },
-      "author": "Mark Gurman",
-      "title": "Apple Signals That It's Working on TV+ App for Android Phones - Bloomberg",
-      "description": "Apple Inc. is seeking a senior engineer to help build a television and sports app for Android, a sign the company is finally bringing its TV+ service to the rival smartphone platform.",
-      "url": "https://www.bloomberg.com/news/articles/2024-05-29/apple-signals-that-it-s-working-on-tv-app-for-android-phones",
-      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iWWgNHs4zxHk/v0/1200x800.jpg",
-      "publishedAt": "2024-05-29T19:09:41Z",
-      "content": "Apple Inc. is seeking a senior engineer to help build a television and sports app for Android, a sign the company is finally bringing its TV+ service to the rival smartphone platform. \r\nIn a job list… [+234 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Rock Paper Shotgun"
-      },
-      "author": "Matt Jarvis",
-      "title": "No Man's Sky Adrift update leaves you completely alone in its universe, except for sandworms and ghost ships - Rock Paper Shotgun",
-      "description": "No shops or shortcuts means it’ll be a new survival challenge too.",
-      "url": "https://www.rockpapershotgun.com/no-mans-sky-adrift-update-leaves-you-completely-alone-in-its-universe-except-for-sandworms-and-ghost-ships",
-      "urlToImage": "https://assetsio.gnwcdn.com/no-mans-sky-adrift-update.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
-      "publishedAt": "2024-05-29T17:58:54Z",
-      "content": "With an effectively infinite universe to fill in No Man’s Sky, developers Hello Games have certainly risen to the challenge of trying to fill it with as much stuff as they possibly can over the last … [+1841 chars]"
+      "author": "https://blog.playstation.com/author/aramjabbari/",
+      "title": "God of War Ragnarök is coming to PC - PlayStation",
+      "description": "Release date and PC features for God of War Ragnarök announced.",
+      "url": "https://blog.playstation.com/2024/05/30/god-of-war-ragnarok-is-coming-to-pc/",
+      "urlToImage": "https://blog.playstation.com/tachyon/2024/05/cb6f865c70b2d0c5d4f5cebb078616402378b05e.jpg",
+      "publishedAt": "2024-05-30T22:20:16Z",
+      "content": "God of War Ragnarök will be coming to PC on September 19, 2024!\r\nSanta Monica Studios development partner for God of War (2018) on PC, Jetpack Interactive, is back to help deliver the PC version of G… [+2351 chars]"
     },
     {
       "source": {
         "id": "ars-technica",
         "name": "Ars Technica"
       },
-      "author": "Scharon Harding",
-      "title": "8BitDo M Edition mechanical keyboard is a modern take on IBM's Model M - Ars Technica",
-      "description": "Numpad sold separately.",
-      "url": "https://arstechnica.com/gadgets/2024/05/8bitdos-retro-ibm-inspired-keyboard-could-use-more-retro/",
-      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/05/head-760x380.jpg",
-      "publishedAt": "2024-05-29T17:43:49Z",
-      "content": "32\r\n<ul><li>\r\n 8BitDo's IBM-like M Edition keyboard. \r\n</li><li>\r\n Design cues help pay tribute to the '80s buckling spring keyboard. \r\n</li><li>\r\n It even has arrows on the Tab key, like the origina… [+4336 chars]"
+      "author": "Samuel Axon",
+      "title": "Report: Apple and OpenAI have signed a deal to partner on AI - Ars Technica",
+      "description": "The deal has parallels to Apple's infamous search deal with Google.",
+      "url": "https://arstechnica.com/gadgets/2024/05/report-apple-and-openai-have-signed-a-deal-to-partner-on-ai/",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-2153474140-760x380.jpg",
+      "publishedAt": "2024-05-30T21:39:53Z",
+      "content": "Enlarge/ OpenAI CEO Sam Altman.\r\n79\r\nApple and OpenAI have successfully made a deal to include OpenAI's generative AI technology in Apple's software, according to The Information, which cites a sourc… [+2994 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Sean Hollister",
+      "title": "Magic Leap is Google's new mystery partner for XR headsets - The Verge",
+      "description": "Google and Magic Leap have a “multi-faceted strategic technology partnership” designed to “foster the future of the XR ecosystem with unique and innovative product offerings.”",
+      "url": "https://www.theverge.com/2024/5/30/24167283/google-magic-leap-deal-optics-manufacturing",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/pRzbx33lHXEjEVAiRxBPPkdOZ24=/443x42:2349x1318/1200x628/filters:focal(1420x393:1421x394)/cdn.vox-cdn.com/uploads/chorus_asset/file/23762458/Screen_Shot_2022_07_12_at_2.52.00_PM.png",
+      "publishedAt": "2024-05-30T21:18:53Z",
+      "content": "Magic Leap is Googles new mystery partner for XR headsets\r\nMagic Leap is Googles new mystery partner for XR headsets\r\n / What does Google need that Magic Leap can provide?\r\nBySean Hollister, a senior… [+2364 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "PhoneArena"
+        "name": "Kotaku"
       },
-      "author": "Anam Hamid",
-      "title": "You might want to avoid updating Google Play when prodded - PhoneArena",
-      "description": "Cybercriminals have devised a new strategy to steal your banking credentials and read your text messages.",
-      "url": "https://www.phonearena.com/news/You-might-want-to-avoid-updating-Google-Play-when-prodded_id158838",
-      "urlToImage": "https://m-cdn.phonearena.com/images/article/158838-wide-two_1200/You-might-want-to-avoid-updating-Google-Play-when-prodded.jpg",
-      "publishedAt": "2024-05-29T17:15:49Z",
-      "content": "What's the oldest trick in the book to get people to do something they might not otherwise do? Pretend to be someone you are not. That's exactly what the Antidot banking trojan is doing. To lure Andr… [+2250 chars]"
+      "author": "Moises Taveras",
+      "title": "Redfall's Final Update Revamps The Game As Arkane Austin Devs Bid Farewell - Kotaku",
+      "description": "And so concludes Redfall’s long and turbulent saga",
+      "url": "https://kotaku.com/redfall-final-update-arkane-austin-1851509877",
+      "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/04bdfd2a3aae9388cc30aaabf5622482.jpg",
+      "publishedAt": "2024-05-30T18:30:00Z",
+      "content": "Earlier this month, it was announced that Arkane Austin, among a number of other Bethesda-owned studios, was being shuttered by Xbox, meaning that the team responsible for vampire-themed loot shooter… [+2779 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Post"
+      },
+      "author": "Thomas Barrabi",
+      "title": "Google admits massive leak related to search is authentic - New York Post ",
+      "description": "The documents amount to “the biggest leak that we’ve ever seen come out of Google for search,” according to Michael King, the CEO of consulting firm iPullRank.",
+      "url": "https://nypost.com/2024/05/30/business/google-admits-massive-leak-related-to-search-is-authentic/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/05/2023-google-said-combine-software-80308611.jpg?quality=75&strip=all&w=1024",
+      "publishedAt": "2024-05-30T18:10:00Z",
+      "content": "Google has confirmed that a massive leak of some 2,500 internal documents related to its search engine is authentic and one expert said the trove shows that “Google tells us one thing and they do ano… [+4937 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5google.com"
+      },
+      "author": "Ben Schoon",
+      "title": "Samsung has officially lost its crown in the foldable market - 9to5Google",
+      "description": "After a few years, Samsung has officially lost its crown in the foldable market as the competition has continued to heat up.",
+      "url": "http://9to5google.com/2024/05/30/samsung-foldables-no-longer-market-leader/",
+      "urlToImage": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2023/07/galaxy-z-flip-5-fold-5-2.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2024-05-30T17:13:00Z",
+      "content": "Foldables are still a new concept, but they’ve been getting much better over the few years they’ve been on the market. Samsung has been the leader in foldables since the beginning, but the company ha… [+1833 chars]"
     },
     {
       "source": {
@@ -203,25 +164,51 @@
         "name": "Blizzard.com"
       },
       "author": null,
-      "title": "Explore New Heroes in Twist! — Hearthstone — Blizzard News - Blizzard News",
-      "description": "Learn more about what’s coming for Twist’s June season, Whizbang’s Heroes, and more.",
-      "url": "https://news.blizzard.com/en-us/hearthstone/24077481/explore-new-heroes-in-twist",
-      "urlToImage": "https://bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/7s/7SSNEH8JGQ3A1716323625414.jpg",
-      "publishedAt": "2024-05-29T17:00:00Z",
-      "content": "Twist returns soon for a massive new season: Whizbangs Heroes! Jump right into the fun with one of 19 new Heroes, each with a pre-made deck and a unique Hero Power and Passive effect. It all starts w… [+5440 chars]"
+      "title": "Celebrate the Diablo Anniversary with March of the Goblins - Blizzard News",
+      "description": "It’s been a Hell of a year. Celebrations burn bright for the Diablo IV and Diablo Immortal anniversaries.",
+      "url": "https://news.blizzard.com/en-us/diablo4/24096024/celebrate-the-diablo-anniversary-with-march-of-the-goblins",
+      "urlToImage": "https://bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/31/31QZPZAXYORY1717002047488.png",
+      "publishedAt": "2024-05-30T17:00:00Z",
+      "content": "Come one, come all to celebrate the 1-year anniversary of Diablo IV, and the 2-year anniversary of Diablo Immortal! Share in a goblins heap of rewards to mark another year of malevolence across Sanct… [+10416 chars]"
     },
     {
       "source": {
-        "id": "ars-technica",
-        "name": "Ars Technica"
+        "id": null,
+        "name": "Android Police"
       },
-      "author": "Kyle Orland",
-      "title": "Sony apologizes for interview it says “misrepresented” a Last of Us creator - Ars Technica",
-      "description": "Move comes after Druckmann publicly disavowed some quotes: \"This is not quite what I said.\"",
-      "url": "https://arstechnica.com/gaming/2024/05/sony-removes-interview-that-quotes-last-of-us-creator-lauding-ai-tools/",
-      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1832106170-760x380.jpg",
-      "publishedAt": "2024-05-29T16:51:18Z",
-      "content": "Enlarge/ Naughty Dog's Neil Druckmann, seen here not questioning the accuracy of a PR interview.\r\n28\r\nSony has taken down an interview with Naughty Dog Studio Head Neil Druckmann (Uncharted, The Last… [+6817 chars]"
+      "author": "Samuel Martinez",
+      "title": "Google's newest Android features get you RCS message editing, instant hotspot, and more - Android Police",
+      "description": "Plus seamless video call switching, new Emoji Kitchen combos, and Google Home widgets",
+      "url": "https://www.androidpolice.com/google-new-android-features-rcs-message-editing-more/",
+      "urlToImage": "https://static1.anpoimages.com/wordpress/wp-content/uploads/wm/2024/05/google-pixel-8a-review-06.jpg",
+      "publishedAt": "2024-05-30T16:00:00Z",
+      "content": "Summary\r\n<ul><li> Google has announced a suite of new features heading to Android devices in the coming days. </li><li> Editing sent RCS messages in Google Message is now possible. A new instant hots… [+2927 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "VentureBeat"
+      },
+      "author": "Michael Nuñez",
+      "title": "Anthropic's Claude AI now autonomously interacts with external data and tools - VentureBeat",
+      "description": "Anthropic empowers enterprises with Claude AI's groundbreaking Tool Use feature, revolutionizing task automation, personalized recommendations, and data analysis.",
+      "url": "https://venturebeat.com/ai/anthropic-claude-ai-now-autonomously-interacts-with-external-data-and-tools/",
+      "urlToImage": "https://venturebeat.com/wp-content/uploads/2024/05/nuneybits_A_minimalist_symbolic_representation_of_the_partnersh_a4e6f396-808e-4fcc-8d2b-dd891b0e3b83.webp?w=1024?w=1200&strip=all",
+      "publishedAt": "2024-05-30T16:00:00Z",
+      "content": "Time's almost up! There's only one week left to request an invite to The AI Impact Tour on June 5th. Don't miss out on this incredible opportunity to explore various methods for auditing AI models.Fi… [+1791 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Nilay Patel",
+      "title": "How independent websites are dealing with the end of Google traffic - The Verge",
+      "description": "Search is a foundational platform the modern web was built on. But all platforms come and go — so what’s next?",
+      "url": "https://www.theverge.com/24167865/google-zero-search-crash-housefresh-ai-overviews-traffic-data-audience",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/EaScurH_lVme4X1artA78Qh3lpo=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/24016888/STK093_Google_01.jpg",
+      "publishedAt": "2024-05-30T15:55:21Z",
+      "content": "Google Zero is here now what?\r\nGoogle Zero is here now what?\r\n / Search is an invisible platform that shaped the entire web. And its changing.\r\nWeve been covering big changes to Google and Google Sea… [+2843 chars]"
     }
   ]
 }

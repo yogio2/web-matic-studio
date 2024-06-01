@@ -45,7 +45,7 @@ function PopupCard() {
 
       <div className="content">
         <h3>Transforming Digital Dreams into Reality</h3>
-        <div className='between'><img src="src\Components\Media\popupBetween.jpg" alt="book appointment" /></div>
+        <div className='between'><img src="src\Components\Media\popupBetween.webp" alt="book appointment" /></div>
         <p>Scheduling for Success</p>
         <button className='modalMeet neonB1' onClick={toContact}>Book Appointment</button>
       </div>

@@ -1,36 +1,33 @@
 import './StyleJS/footbar.css'
+import { NavLink, useNavigate } from 'react-router-dom';
 
 const FootBar = () => {
     return (
         <footer className="footbar">
             <div className="smaller">
                 <h1 className="logo smaller">WEB MATIC <span>STUDIO</span></h1>
-                <p style={{textAlign:'center'}}>Above and Beyond</p>
+                <h5 style={{textAlign:'center', letterSpacing:".5em"}}>Above and Beyond</h5>
             </div>
             <table className="footTable">
                 <tbody>
                 <tr>
-                    <th>Services</th>
-                    <th>Company</th>
+                    <th>Menu</th>
                     <th>Connect with Us</th>
                 </tr>
                 <tr>
-                    <td>Service 1</td>
-                    <td>Blog</td>
-                    <td>X</td>
+                    <td><NavLink to={'/services'} className='footerLinks'>Services</NavLink></td>
+                    <td>Facebook</td>
                 </tr>
                 <tr>
-                    <td>Service 2</td>
-                    <td>Abou Us</td>
+                    <td><NavLink to={'/projects'} className='footerLinks'>Projects</NavLink></td>
                     <td>LinkedIn</td>
-                </tr><tr>
-                    <td>Service 3</td>
-                    <td>Careers</td>
-                    <td>Instagram</td>
-                </tr><tr>
-                    <td>Service 4</td>
-                    <td>Privacy Policy</td>
-                    <td>Facebook</td>
+                </tr>
+                <tr>
+                    <td><NavLink to={'/Creatives'} className='footerLinks'>Creatives</NavLink></td>
+                    <td> <a href=""></a> Instagram</td>
+                </tr>
+                <tr>
+                    <td><NavLink to={'/contact'} className='footerLinks'>Contact</NavLink></td>
                 </tr>
                 </tbody>
             </table>

@@ -163,7 +163,7 @@ export const ParallaxColumn = () => {
       <div className="parallaxColumn">
         <div className="column">
           <Swiper loop={true} autoplay={{delay: 800, disableOnInteraction: false}} grabCursor={false} modules={[Autoplay]}>
-            <SwiperSlide><img className='workDisp' src="src\Components\Media\elegant-minimal.jpg" alt="Design_1" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="src\Components\Media\elegant-minimal.webp" alt="Design_1" /></SwiperSlide>
             <SwiperSlide><img className='workDisp' src="src/Components/Templates/TravelSite.png" alt="Design_2" /></SwiperSlide>
             <SwiperSlide><img className='workDisp' src="src/Components/Templates/404Page.png" alt="Design_3" /></SwiperSlide>
             <SwiperSlide><img className='workDisp' src="src/Components/Media/SwatiProjects/FullReactApp.png" alt="Design_4" /></SwiperSlide>
@@ -187,13 +187,13 @@ export const ParallaxColumn = () => {
         </div>
         <div className="column">
         <Swiper loop={true} autoplay={{delay: 1200, disableOnInteraction: false}} grabCursor={false} modules={[Autoplay]} dir='rtl' direction='horizontal'>
-            <SwiperSlide><img className='workDisp' src="src\Components\Media\menu.jpg" alt="graphics_1" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="src\Components\Media\menu.webp" alt="graphics_1" /></SwiperSlide>
             <SwiperSlide><img className='workDisp' src="src\Components\Media\banner-overview.webp" alt="graphics_2" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src\Components\Media\elegant-minimal.jpg" alt="graphics_3" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src\Components\Media\IMG-20221118-WA0003.jpg" alt="graphics_4" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="src\Components\Media\elegant-minimal.webp" alt="graphics_3" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="src\Components\Media\IMG-20221118-WA0003.webp" alt="graphics_4" /></SwiperSlide>
             <SwiperSlide><img className='workDisp' src="src\Components\Media\Real-estate.webp" alt="graphics_5" /></SwiperSlide>
             <SwiperSlide><img className='workDisp' src="src\Components\Media\ezgif.com-video-to-gif-converted.gif" alt="graphics_6" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src\Components\Media\movieposter.jpg" alt="graphics_7" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="src\Components\Media\movieposter.webp" alt="graphics_7" /></SwiperSlide>
           </Swiper>
           <h3 style={{textAlign:'center'}}>Graphics</h3>
         </div>
@@ -230,6 +230,7 @@ export const FinalWords = () => {
     </div>
   );
 };
+
 
 // Testimonials ------------------------------------------------------------------------------------------------------------------------
 
@@ -269,12 +270,12 @@ export const Testimony = () => {
       >
         <SwiperSlide className='speechSlide' style={{transform:'none'}}>
           <div className="speechBox">
-            <img className='qoute' src="src/Components/Media/quote.png" alt="" />
+            <img className='qoute' src="src/Components/Media/quote.webp" alt="" />
             <div className="speechContent">
               <p>We highly recommend Webmatic Studio for their outstanding website design services. Their talented team, attention to detail, and commitment to delivering exceptional results make them a reliable partner for any business seeking a compelling online presence.</p>
               <div className="speechDetails">
                 <div className="imgbox">
-                  <img src="src/Components/Media/SamratS.png" alt="" />
+                  <img src="src/Components/Media/SamratS.webp" alt="" />
                 </div>
                 <h3>Samrat Sonawale</h3>
               </div>
@@ -283,12 +284,12 @@ export const Testimony = () => {
         </SwiperSlide>
         <SwiperSlide className='speechSlide'>
           <div className="speechBox">
-            <img className='qoute' src="src/Components/Media/quote.png" alt="" />
+            <img className='qoute' src="src/Components/Media/quote.webp" alt="" />
             <div className="speechContent">
               <p>Webtrust's web design prowess revolutionized our E-Commerce site, boosting sales and delighting customers with an exceptional online shopping experience.</p>
               <div className="speechDetails">
                 <div className="imgbox">
-                  <img src="src/Components/Media/PetParadise.png" alt="" />
+                  <img src="src/Components/Media/PetParadise.webp" alt="" />
                 </div>
                 <h3>Pet Paradise</h3>
               </div>
@@ -297,12 +298,12 @@ export const Testimony = () => {
         </SwiperSlide>
         <SwiperSlide className='speechSlide'>
           <div className="speechBox">
-            <img className='qoute' src="src/Components/Media/quote.png" alt="" />
+            <img className='qoute' src="src/Components/Media/quote.webp" alt="" />
             <div className="speechContent">
               <p>One of the standout qualities of The Webtrust was their professionalism and communication. They are always quick in responding to our inquiries, providing regular updates, and incorporating our feedback effectively.</p>
               <div className="speechDetails">
                 <div className="imgbox">
-                  <img src="src/Components/Media/AkashM.png" alt="" />
+                  <img src="src/Components/Media/AkashM.webp" alt="" />
                 </div>
                 <h3>Aakash Mishra</h3>
               </div>
@@ -311,12 +312,12 @@ export const Testimony = () => {
         </SwiperSlide>
         <SwiperSlide className='speechSlide'>
           <div className="speechBox">
-            <img className='qoute' src="src/Components/Media/quote.png" alt="" />
+            <img className='qoute' src="src/Components/Media/quote.webp" alt="" />
             <div className="speechContent">
               <p>We recently worked with The Webtrust for our website redesign, and we couldn't be happier with the outcome. The team at The Webtrust showcased their expertise and creativity in delivering a website that perfectly captured our brand essence.</p>
               <div className="speechDetails">
                 <div className="imgbox">
-                  <img src="src/Components/Media/SwetaK.png" alt="" />
+                  <img src="src/Components/Media/SwetaK.webp" alt="" />
                 </div>
                 <h3>Shweta Kawale</h3>
               </div>
@@ -325,12 +326,12 @@ export const Testimony = () => {
         </SwiperSlide>
         <SwiperSlide className='speechSlide'>
           <div className="speechBox">
-            <img className='qoute' src="src/Components/Media/quote.png" alt="" />
+            <img className='qoute' src="src/Components/Media/quote.webp" alt="" />
             <div className="speechContent">
               <p>Our experience with The Webtrust was excellent. They demonstrated a high level of professionalism and expertise throughout the entire website design process.</p>
               <div className="speechDetails">
                 <div className="imgbox">
-                  <img src="src/Components/Media/ShivaniK.png" alt="" />
+                  <img src="src/Components/Media/ShivaniK.webp" alt="" />
                 </div>
                 <h3>Shivani Kamble</h3>
               </div>
