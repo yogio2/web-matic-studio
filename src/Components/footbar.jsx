@@ -1,5 +1,7 @@
 import './StyleJS/footbar.css'
 import { NavLink, useNavigate } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import  { faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons'
 
 const FootBar = () => {
     return (
@@ -11,20 +13,20 @@ const FootBar = () => {
             <table className="footTable">
                 <tbody>
                 <tr>
-                    <th>Menu</th>
+                    <th>Quick Links</th>
                     <th>Connect with Us</th>
                 </tr>
                 <tr>
-                    <td><NavLink to={'/services'} className='footerLinks'>Services</NavLink></td>
-                    <td>Facebook</td>
+                    <td><NavLink to={'/projects'} className='footerLinks'>Projects</NavLink></td>
+                    <td><FontAwesomeIcon icon={faPhone} /> +91 95119 76919</td>
                 </tr>
                 <tr>
-                    <td><NavLink to={'/projects'} className='footerLinks'>Projects</NavLink></td>
-                    <td>LinkedIn</td>
+                    <td><NavLink to={'/services'} className='footerLinks'>Services</NavLink></td>
+                    <td><FontAwesomeIcon icon={faEnvelope} /> Siddharthbhowmick@gmail.com</td>
                 </tr>
                 <tr>
                     <td><NavLink to={'/Creatives'} className='footerLinks'>Creatives</NavLink></td>
-                    <td> <a href=""></a> Instagram</td>
+                    <td> <img src="src\Components\Media\bitmap.svg" style={{height:'20px'}} alt="logo" /> <NavLink to={'/'} className='footerLinks'> Web Matic Studio</NavLink></td>
                 </tr>
                 <tr>
                     <td><NavLink to={'/contact'} className='footerLinks'>Contact</NavLink></td>
