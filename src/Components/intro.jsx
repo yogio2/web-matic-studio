@@ -50,20 +50,20 @@ export const HomeTech = () => {
       <div className='mSide'><h2>Tech Stack</h2></div>
       <div className="logosCont">
         <div className="techScroll">
-          <span className='tech'><img src="src\Components\Media\logos\WordPress-Logo.png" alt="Wordpress" /></span>
-          <span className="tech"><img src="src\Components\Media\logos\Adobe-Illustrator.jpg" alt="Illustrator" /></span>
-          <span className="tech"><img src="src\Components\Media\logos\Adobe-Premiere-Pro-logo.png" alt="Premeire" /></span>
-          <span className="tech"><img src="src\Components\Media\logos\threejs-logo.png" alt="Threejs" /></span>
-          <span className="tech"><img src="src\Components\Media\logos\photoshop-logo.png" alt="Photoshop" /></span>
-          <span className="tech"><img src="src\Components\Media\logos\react-logo.jpg" alt="React" /></span>
+          <span className='tech'><img src="Media\logos\WordPress-Logo.png" alt="Wordpress" /></span>
+          <span className="tech"><img src="Media\logos\Adobe-Illustrator.jpg" alt="Illustrator" /></span>
+          <span className="tech"><img src="Media\logos\Adobe-Premiere-Pro-logo.png" alt="Premeire" /></span>
+          <span className="tech"><img src="Media\logos\threejs-logo.png" alt="Threejs" /></span>
+          <span className="tech"><img src="Media\logos\photoshop-logo.png" alt="Photoshop" /></span>
+          <span className="tech"><img src="Media\logos\react-logo.jpg" alt="React" /></span>
         </div>
         <div className="techScroll">
-          <span className='tech'><img src="src\Components\Media\logos\WordPress-Logo.png" alt="Wordpress" /></span>
-          <span className="tech"><img src="src\Components\Media\logos\Adobe-Illustrator.jpg" alt="Illustrator" /></span>
-          <span className="tech"><img src="src\Components\Media\logos\Adobe-Premiere-Pro-logo.png" alt="Premeire" /></span>
-          <span className="tech"><img src="src\Components\Media\logos\threejs-logo.png" alt="Threejs" /></span>
-          <span className="tech"><img src="src\Components\Media\logos\photoshop-logo.png" alt="Photoshop" /></span>
-          <span className="tech"><img src="src\Components\Media\logos\react-logo.jpg" alt="React" /></span>
+          <span className='tech'><img src="Media\logos\WordPress-Logo.png" alt="Wordpress" /></span>
+          <span className="tech"><img src="Media\logos\Adobe-Illustrator.jpg" alt="Illustrator" /></span>
+          <span className="tech"><img src="Media\logos\Adobe-Premiere-Pro-logo.png" alt="Premeire" /></span>
+          <span className="tech"><img src="Media\logos\threejs-logo.png" alt="Threejs" /></span>
+          <span className="tech"><img src="Media\logos\photoshop-logo.png" alt="Photoshop" /></span>
+          <span className="tech"><img src="Media\logos\react-logo.jpg" alt="React" /></span>
         </div>
       </div>
       <div className='link'><a href="/techstack" className="link--top">Learn More</a><a href="/techstack" className="link--bottom">Learn More</a></div>
@@ -81,72 +81,72 @@ export const HomeService = () => {
       <div className="serviceGrid">
         <div className="card">
           <div className="wrapper">
-            <img className=" cover-image" src="src\Components\Media\Animated commercial images and 3d illustrator\AnimCommBG.png" alt="Animated commercial"/>
+            <img className=" cover-image" src="Media\Animated commercial images and 3d illustrator\AnimCommBG.png" alt="Animated commercial"/>
           </div>
-          <img src="src\Components\Media\Animated commercial images and 3d illustrator\AnimCommFG.png" alt="Animated Commercial" className="character"/>
+          <img src="Media\Animated commercial images and 3d illustrator\AnimCommFG.png" alt="Animated Commercial" className="character"/>
           <h3>Animated commercial</h3>
         </div>
         <div className="card">
           <div className="wrapper">
-            <img className=" cover-image" src="src\Components\Media\App development images and 3d illustrator\AppDevBG.jpeg" alt="Website development"/>
+            <img className=" cover-image" src="Media\App development images and 3d illustrator\AppDevBG.jpeg" alt="Website development"/>
           </div>
-          <img src="src\Components\Media\App development images and 3d illustrator\AppDevFG.jpeg" alt="Website development" className="character"/>
+          <img src="Media\App development images and 3d illustrator\AppDevFG.jpeg" alt="Website development" className="character"/>
           <h3>Website development</h3>
         </div>
         <div className="card">
           <div className="wrapper">
-            <img className=" cover-image" src="src\Components\Media\Copy writing images and 3d illustrator\CopyWriteBG.jpeg" alt="Social Media"/>
+            <img className=" cover-image" src="Media\Copy writing images and 3d illustrator\CopyWriteBG.jpeg" alt="Social Media"/>
           </div>
-          <img src="src\Components\Media\Copy writing images and 3d illustrator\CopyWriteFG.jpeg" alt="Social Media" className="character"/>
+          <img src="Media\Copy writing images and 3d illustrator\CopyWriteFG.jpeg" alt="Social Media" className="character"/>
           <h3>Social Media</h3>
         </div>
         <div className="card">
           <div className="wrapper">
-            <img className=" cover-image" src="src\Components\Media\digital marketing images and 3d illustrator\DigtalMarketingBG.jpeg" alt="digital marketing"/>
+            <img className=" cover-image" src="Media\digital marketing images and 3d illustrator\DigtalMarketingBG.jpeg" alt="digital marketing"/>
           </div>
-          <img src="src\Components\Media\digital marketing images and 3d illustrator\DigitalMarketingFG.jpeg" alt="digital marketing" className="character"/>
+          <img src="Media\digital marketing images and 3d illustrator\DigitalMarketingFG.jpeg" alt="digital marketing" className="character"/>
           <h3>digital marketing</h3>
         </div>
         <div className="card">
           <div className="wrapper">
-            <img className=" cover-image" src="src\Components\Media\Package design images and 3d illustrator\PackageDesignBG.jpeg" alt="Package design"/>
+            <img className=" cover-image" src="Media\Package design images and 3d illustrator\PackageDesignBG.jpeg" alt="Package design"/>
           </div>
-          <img src="src\Components\Media\Package design images and 3d illustrator\PackageDesignFG.png" alt="Package design" className="character"/>
+          <img src="Media\Package design images and 3d illustrator\PackageDesignFG.png" alt="Package design" className="character"/>
           <h3>Package design</h3>
         </div>
         <div className="card">
           <div className="wrapper">
-            <img className=" cover-image" src="src\Components\Media\Product design images and 3d illustrator\ProductDesignBG.jpg" alt="Product design"/>
+            <img className=" cover-image" src="Media\Product design images and 3d illustrator\ProductDesignBG.jpg" alt="Product design"/>
           </div>
-          <img src="src\Components\Media\Product design images and 3d illustrator\ProductDesignFG.jpg" alt="Product design" className="character"/>
+          <img src="Media\Product design images and 3d illustrator\ProductDesignFG.jpg" alt="Product design" className="character"/>
           <h3>Product design</h3>
         </div>
         <div className="card">
           <div className="wrapper">
-            <img className=" cover-image" src="src\Components\Media\Seo images and 3d illustrator\SEOBG.jpeg" alt="Advertisement"/>
+            <img className=" cover-image" src="Media\Seo images and 3d illustrator\SEOBG.jpeg" alt="Advertisement"/>
           </div>
-          <img src="src\Components\Media\Seo images and 3d illustrator\SEOFG.jpeg" alt="Advertisement" className="character"/>
+          <img src="Media\Seo images and 3d illustrator\SEOFG.jpeg" alt="Advertisement" className="character"/>
           <h3>Advertisement</h3>
         </div>
         <div className="card">
           <div className="wrapper">
-            <img className=" cover-image" src="src\Components\Media\Web maintenance images and 3d illustrator\WebMaintainBG.jpeg" alt="Web Maintenance"/>
+            <img className=" cover-image" src="Media\Web maintenance images and 3d illustrator\WebMaintainBG.jpeg" alt="Web Maintenance"/>
           </div>
-          <img src="src\Components\Media\Web maintenance images and 3d illustrator\WebMaintainFG.webp" alt="Web Maintenance" className="character"/>
+          <img src="Media\Web maintenance images and 3d illustrator\WebMaintainFG.webp" alt="Web Maintenance" className="character"/>
           <h3>Web maintenance</h3>
         </div>
         <div className="card">
           <div className="wrapper">
-            <img className="cover-image" src="src\Components\Media\Website branding images and 3 illustrator\brandingBG.jpeg" alt="Website Branding"/>
+            <img className="cover-image" src="Media\Website branding images and 3 illustrator\brandingBG.jpeg" alt="Website Branding"/>
           </div>
-          <img src="src\Components\Media\Website branding images and 3 illustrator\brandingFG.jpeg" alt="Website Branding" className="character"/>
+          <img src="Media\Website branding images and 3 illustrator\brandingFG.jpeg" alt="Website Branding" className="character"/>
           <h3>Website branding</h3>
         </div>
         <div className="card">
           <div className="wrapper">
-            <img className=" cover-image" src="src\Components\Media\Website design images and 3d illustrator\WebDesignBG.jpeg" alt="Website Design"/>
+            <img className=" cover-image" src="Media\Website design images and 3d illustrator\WebDesignBG.jpeg" alt="Website Design"/>
           </div>
-          <img src="src\Components\Media\Website design images and 3d illustrator\WebDesignFG.jpg" alt="Website Design" className="character"/>
+          <img src="Media\Website design images and 3d illustrator\WebDesignFG.jpg" alt="Website Design" className="character"/>
           <h3>Website Design</h3>
         </div>
       </div>
@@ -163,37 +163,37 @@ export const ParallaxColumn = () => {
       <div className="parallaxColumn">
         <div className="column">
           <Swiper loop={true} autoplay={{delay: 800, disableOnInteraction: false}} grabCursor={false} modules={[Autoplay]}>
-            <SwiperSlide><img className='workDisp' src="public/Media/elegant-minimal.webp" alt="Design_1" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="public/Templates/TravelSite.png" alt="Design_2" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="public/Templates/404Page.png" alt="Design_3" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="public/Media/SwatiProjects/FullReactApp.png" alt="Design_4" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="public/Media/gifShowcase.webp" alt="Design_5" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="public/Media/SuyogProjects/Use5.png" alt="Design_6" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="public/Media/SuyogProjects/Use1.png" alt="Design_7" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Media/elegant-minimal.webp" alt="Design_1" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Templates/TravelSite.png" alt="Design_2" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Templates/404Page.png" alt="Design_3" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Media/SwatiProjects/FullReactApp.png" alt="Design_4" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Media/gifShowcase.webp" alt="Design_5" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Media/SuyogProjects/Use5.png" alt="Design_6" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Media/SuyogProjects/Use1.png" alt="Design_7" /></SwiperSlide>
           </Swiper>
           <h3 style={{textAlign:'center'}}>Design</h3>
         </div>
         <div className="column center">
         <Swiper loop={true} autoplay={{delay: 1000, disableOnInteraction: false}} grabCursor={false} modules={[Autoplay]} direction={'vertical'}>
-            <SwiperSlide><img className='workDisp' src="public/Templates/3Dmodel.png" alt="Website_1" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="public/Templates/Portfolio1.png" alt="Website_2" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="public/Media/SwatiProjects/ElevateStore.png" alt="Website_3" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="public/Media/SwatiProjects/FullDoctorWebsite.png" alt="Website_4" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="public/Media/SwatiProjects/SymphonyCafe.gif" alt="Website_5" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="public/Media/SwatiProjects/DigitalAgency.gif" alt="Website_6" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Templates/3Dmodel.png" alt="Website_1" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Templates/Portfolio1.png" alt="Website_2" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Media/SwatiProjects/ElevateStore.png" alt="Website_3" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Media/SwatiProjects/FullDoctorWebsite.png" alt="Website_4" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Media/SwatiProjects/SymphonyCafe.gif" alt="Website_5" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Media/SwatiProjects/DigitalAgency.gif" alt="Website_6" /></SwiperSlide>
             <SwiperSlide><img className='workDisp' src="Media/banner-overview.webp" alt="Website_7" /></SwiperSlide>
           </Swiper>
           <h3 style={{textAlign:'center'}}>Website</h3>
         </div>
         <div className="column">
         <Swiper loop={true} autoplay={{delay: 1200, disableOnInteraction: false}} grabCursor={false} modules={[Autoplay]} dir='rtl' direction='horizontal'>
-            <SwiperSlide><img className='workDisp' src="public/Media/menu.webp" alt="graphics_1" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="public/Media/banner-overview.webp" alt="graphics_2" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="public/Media/elegant-minimal.webp" alt="graphics_3" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="public/Media/IMG-20221118-WA0003.webp" alt="graphics_4" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="public/Media/Real-estate.webp" alt="graphics_5" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="public/Media/gifShowcase.webp" alt="graphics_6" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="public/Media/movieposter.webp" alt="graphics_7" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Media/menu.webp" alt="graphics_1" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Media/banner-overview.webp" alt="graphics_2" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Media/elegant-minimal.webp" alt="graphics_3" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Media/IMG-20221118-WA0003.webp" alt="graphics_4" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Media/Real-estate.webp" alt="graphics_5" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Media/gifShowcase.webp" alt="graphics_6" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Media/movieposter.webp" alt="graphics_7" /></SwiperSlide>
           </Swiper>
           <h3 style={{textAlign:'center'}}>Graphics</h3>
         </div>
@@ -270,12 +270,12 @@ export const Testimony = () => {
       >
         <SwiperSlide className='speechSlide' style={{transform:'none'}}>
           <div className="speechBox">
-            <img className='qoute' src="public/Media/quote.webp" alt="" />
+            <img className='qoute' src="Media/quote.webp" alt="" />
             <div className="speechContent">
               <p>We highly recommend Webmatic Studio for their outstanding website design services. Their talented team, attention to detail, and commitment to delivering exceptional results make them a reliable partner for any business seeking a compelling online presence.</p>
               <div className="speechDetails">
                 <div className="imgbox">
-                  <img src="public/Media/SamratS.webp" alt="" />
+                  <img src="Media/SamratS.webp" alt="" />
                 </div>
                 <h3>Samrat Sonawale</h3>
               </div>
@@ -284,12 +284,12 @@ export const Testimony = () => {
         </SwiperSlide>
         <SwiperSlide className='speechSlide'>
           <div className="speechBox">
-            <img className='qoute' src="public/Media/quote.webp" alt="" />
+            <img className='qoute' src="Media/quote.webp" alt="" />
             <div className="speechContent">
               <p>Webtrust's web design prowess revolutionized our E-Commerce site, boosting sales and delighting customers with an exceptional online shopping experience.</p>
               <div className="speechDetails">
                 <div className="imgbox">
-                  <img src="public/Media/PetParadise.webp" alt="" />
+                  <img src="Media/PetParadise.webp" alt="" />
                 </div>
                 <h3>Pet Paradise</h3>
               </div>
@@ -298,12 +298,12 @@ export const Testimony = () => {
         </SwiperSlide>
         <SwiperSlide className='speechSlide'>
           <div className="speechBox">
-            <img className='qoute' src="public/Media/quote.webp" alt="" />
+            <img className='qoute' src="Media/quote.webp" alt="" />
             <div className="speechContent">
               <p>One of the standout qualities of The Webtrust was their professionalism and communication. They are always quick in responding to our inquiries, providing regular updates, and incorporating our feedback effectively.</p>
               <div className="speechDetails">
                 <div className="imgbox">
-                  <img src="public/Media/AkashM.webp" alt="" />
+                  <img src="Media/AkashM.webp" alt="" />
                 </div>
                 <h3>Aakash Mishra</h3>
               </div>
@@ -312,12 +312,12 @@ export const Testimony = () => {
         </SwiperSlide>
         <SwiperSlide className='speechSlide'>
           <div className="speechBox">
-            <img className='qoute' src="public/Media/quote.webp" alt="" />
+            <img className='qoute' src="Media/quote.webp" alt="" />
             <div className="speechContent">
               <p>We recently worked with The Webtrust for our website redesign, and we couldn't be happier with the outcome. The team at The Webtrust showcased their expertise and creativity in delivering a website that perfectly captured our brand essence.</p>
               <div className="speechDetails">
                 <div className="imgbox">
-                  <img src="public/Media/SwetaK.webp" alt="" />
+                  <img src="Media/SwetaK.webp" alt="" />
                 </div>
                 <h3>Shweta Kawale</h3>
               </div>
@@ -326,12 +326,12 @@ export const Testimony = () => {
         </SwiperSlide>
         <SwiperSlide className='speechSlide'>
           <div className="speechBox">
-            <img className='qoute' src="public/Media/quote.webp" alt="" />
+            <img className='qoute' src="Media/quote.webp" alt="" />
             <div className="speechContent">
               <p>Our experience with The Webtrust was excellent. They demonstrated a high level of professionalism and expertise throughout the entire website design process.</p>
               <div className="speechDetails">
                 <div className="imgbox">
-                  <img src="public/Media/ShivaniK.webp" alt="" />
+                  <img src="Media/ShivaniK.webp" alt="" />
                 </div>
                 <h3>Shivani Kamble</h3>
               </div>

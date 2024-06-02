@@ -34,7 +34,7 @@ const Services = () => {
             <div class="scroll-down"></div>
             <section className="serveClass" id="AppDev">
                 <video className='bgVideo' muted autoPlay loop>
-                    <source src='public/Media/WebDev.webm' type='video/webm'/>
+                    <source src='Media/WebDev.webm' type='video/webm'/>
                     Your browser does not support HTML video.
                 </video>
                 <div className="linearGrad">
@@ -44,7 +44,7 @@ const Services = () => {
                 </section>
             <section className="serveClass" id="Website">
                 <video className='bgVideo' muted autoPlay loop>
-                    <source src='public/Media/webDesign.webm' type='video/webm'/>
+                    <source src='Media/webDesign.webm' type='video/webm'/>
                     Your browser does not support HTML video.
                 </video>
                 <div className="linearGrad">
@@ -54,7 +54,7 @@ const Services = () => {
                 </section>
             <section className="serveClass" id="CopyWrite">
                 <video className='bgVideo' muted autoPlay loop>
-                    <source src='public/Media/SocialM.webm' type='video/webm'/>
+                    <source src='Media/SocialM.webm' type='video/webm'/>
                     Your browser does not support HTML video.
                 </video>
                 <div className="linearGrad">
@@ -64,7 +64,7 @@ const Services = () => {
                 </section>
             <section className="serveClass" id="Package">
                 <video className='bgVideo' muted autoPlay loop>
-                    <source src='public/Media/Package.webm' type='video/webm'/>
+                    <source src='Media/Package.webm' type='video/webm'/>
                     Your browser does not support HTML video.
                 </video>
                 <div className="linearGrad">
@@ -74,7 +74,7 @@ const Services = () => {
                 </section>
             <section className="serveClass" id="Product">
                 <video className='bgVideo' muted autoPlay loop>
-                    <source src='public/Media/Product.webm' type='video/webm'/>
+                    <source src='Media/Product.webm' type='video/webm'/>
                     Your browser does not support HTML video.
                 </video>
                 <div className="linearGrad">
@@ -84,7 +84,7 @@ const Services = () => {
                 </section>
             <section className="serveClass" id="SEOSEM">
                 <video className='bgVideo' muted autoPlay loop>
-                    <source src='public/Media/Advert.webm' type='video/webm'/>
+                    <source src='Media/Advert.webm' type='video/webm'/>
                     Your browser does not support HTML video.
                 </video>
                 <div className="linearGrad">
@@ -94,7 +94,7 @@ const Services = () => {
                 </section>
             <section className="serveClass" id="Maintain">
                 <video className='bgVideo' muted autoPlay loop>
-                    <source src='public/Media/Maintain.webm' type='video/webm'/>
+                    <source src='Media/Maintain.webm' type='video/webm'/>
                     Your browser does not support HTML video.
                 </video>
                 <div className="linearGrad">
@@ -104,7 +104,7 @@ const Services = () => {
                 </section>
             <section className="serveClass" id="Digital">
             <video className='bgVideo' muted autoPlay loop>
-                    <source src='public/Media/digitalMarket.webm' type='video/webm'/>
+                    <source src='Media/digitalMarket.webm' type='video/webm'/>
                     Your browser does not support HTML video.
                 </video>
                 <div className="linearGrad">
@@ -114,7 +114,7 @@ const Services = () => {
                 </section>
             <section className="serveClass" id="WebBrand">
                 <video className='bgVideo' muted autoPlay loop>
-                    <source src='public/Media/Graphy.webm' type='video/webm'/>
+                    <source src='Media/Graphy.webm' type='video/webm'/>
                     Your browser does not support HTML video.
                 </video>
                 <div className="linearGrad">
@@ -124,7 +124,7 @@ const Services = () => {
                 </section>
             <section className="serveClass" id="AnimComm">
                 <video className='bgVideo' muted autoPlay loop>
-                    <source src='public/Media/AnimComm.webm' type='video/webm'/>
+                    <source src='Media/AnimComm.webm' type='video/webm'/>
                     Your browser does not support HTML video.
                 </video>
                 <div className="linearGrad">

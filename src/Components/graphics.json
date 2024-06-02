@@ -5,7 +5,7 @@
 		"price": "$10.00",
 		"images": [
 			{
-				"url": "public/Media/grahic1.webp"
+				"url": "Media/grahic1.webp"
 			}
 		]
 	},
@@ -16,7 +16,7 @@
 		"price": "$19.99",
 		"images": [
 			{
-				"url": "public/Media/grahic2.webp"
+				"url": "Media/grahic2.webp"
 			}
 		]
 	},
@@ -27,7 +27,7 @@
 		"price": "$24.99",
 		"images": [
 			{
-				"url": "public/Media/graphic3.webp"
+				"url": "Media/graphic3.webp"
 			}
 		]
 	},
@@ -37,7 +37,7 @@
 		"price": "$30.00",
 		"images": [
 			{
-				"url": "public/Media/graphic4.webp"
+				"url": "Media/graphic4.webp"
 			}
 		]
 	}
