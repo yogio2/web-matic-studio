@@ -26,7 +26,7 @@ const FootBar = () => {
                 </tr>
                 <tr>
                     <td><NavLink to={'/Creatives'} className='footerLinks'>Creatives</NavLink></td>
-                    <td style={{textAlign:'left'}}> <img src="src\Components\Media\bitmap.svg" style={{height:'20px'}} alt="logo" /> <NavLink to={'/'} className='footerLinks'> Web Matic Studio</NavLink></td>
+                    <td style={{textAlign:'left'}}> <img src="public/Media/bitmap.svg" style={{height:'20px'}} alt="logo" /> <NavLink to={'/'} className='footerLinks'> Web Matic Studio</NavLink></td>
                 </tr>
                 <tr>
                     <td><NavLink to={'/contact'} className='footerLinks'>Contact</NavLink></td>

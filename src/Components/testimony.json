@@ -3,30 +3,30 @@
 		"id": 1,
 		"clientele": "Samrat Sonawale",
 		"testimony": "\"We highly recommend The Webtrust for their outstanding website design services. Their talented team, attention to detail, and commitment to delivering exceptional results make them a reliable partner for any business seeking a compelling online presence.\"",
-		"images": "src/Components/Media/SamratS.png"
+		"images": "public/Media/SamratS.png"
 	},
     {
 		"id": 2,
 		"clientele": "Pet Paradise",
 		"testimony": "\"Webtrust's web design prowess revolutionized our E-Commerce site, boosting sales and delighting customers with an exceptional online shopping experience.\"",
-		"images": "src/Components/Media/PetParadise.png"
+		"images": "public/Media/PetParadise.png"
 	},
     {
 		"id": 3,
 		"clientele": "Aakash Mishra",
 		"testimony": "\"One of the standout qualities of The Webtrust was their professionalism and communication. They are always quick in responding to our inquiries, providing regular updates, and incorporating our feedback effectively.\"",
-		"images": "src/Components/Media/AkashM.png"
+		"images": "public/Media/AkashM.png"
 	},
     {
 		"id": 4,
 		"clientele": "Shweta Kawale",
 		"testimony": "\"We recently worked with The Webtrust for our website redesign, and we couldn't be happier with the outcome. The team at The Webtrust showcased their expertise and creativity in delivering a website that perfectly captured our brand essence.\"",
-		"images": "src/Components/Media/SwetaK.png"
+		"images": "public/Media/SwetaK.png"
 	},
     {
 		"id": 5,
 		"clientele": "Shivani Kamble",
 		"testimony": "\"Our experience with The Webtrust was excellent. They demonstrated a high level of professionalism and expertise throughout the entire website design process.\"",
-		"images": "src/Components/Media/ShivaniK.png"
+		"images": "public/Media/ShivaniK.png"
 	}
 ]

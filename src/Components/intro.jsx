@@ -163,37 +163,37 @@ export const ParallaxColumn = () => {
       <div className="parallaxColumn">
         <div className="column">
           <Swiper loop={true} autoplay={{delay: 800, disableOnInteraction: false}} grabCursor={false} modules={[Autoplay]}>
-            <SwiperSlide><img className='workDisp' src="src\Components\Media\elegant-minimal.webp" alt="Design_1" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src/Components/Templates/TravelSite.png" alt="Design_2" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src/Components/Templates/404Page.png" alt="Design_3" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src/Components/Media/SwatiProjects/FullReactApp.png" alt="Design_4" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src/Components/Media/gifShowcase.webp" alt="Design_5" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src/Components/Media/SuyogProjects/Use5.png" alt="Design_6" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src/Components/Media/SuyogProjects/Use1.png" alt="Design_7" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Media/elegant-minimal.webp" alt="Design_1" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Templates/TravelSite.png" alt="Design_2" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Templates/404Page.png" alt="Design_3" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Media/SwatiProjects/FullReactApp.png" alt="Design_4" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Media/gifShowcase.webp" alt="Design_5" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Media/SuyogProjects/Use5.png" alt="Design_6" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Media/SuyogProjects/Use1.png" alt="Design_7" /></SwiperSlide>
           </Swiper>
           <h3 style={{textAlign:'center'}}>Design</h3>
         </div>
         <div className="column center">
         <Swiper loop={true} autoplay={{delay: 1000, disableOnInteraction: false}} grabCursor={false} modules={[Autoplay]} direction={'vertical'}>
-            <SwiperSlide><img className='workDisp' src="src/Components/Templates/3Dmodel.png" alt="Website_1" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src/Components/Templates/Portfolio1.png" alt="Website_2" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src/Components/Media/SwatiProjects/ElevateStore.png" alt="Website_3" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src/Components/Media/SwatiProjects/FullDoctorWebsite.png" alt="Website_4" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src/Components/Media/SwatiProjects/SymphonyCafe.gif" alt="Website_5" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src/Components/Media/SwatiProjects/DigitalAgency.gif" alt="Website_6" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src\Components\Media\banner-overview.webp" alt="Website_7" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Templates/3Dmodel.png" alt="Website_1" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Templates/Portfolio1.png" alt="Website_2" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Media/SwatiProjects/ElevateStore.png" alt="Website_3" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Media/SwatiProjects/FullDoctorWebsite.png" alt="Website_4" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Media/SwatiProjects/SymphonyCafe.gif" alt="Website_5" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Media/SwatiProjects/DigitalAgency.gif" alt="Website_6" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="Media/banner-overview.webp" alt="Website_7" /></SwiperSlide>
           </Swiper>
           <h3 style={{textAlign:'center'}}>Website</h3>
         </div>
         <div className="column">
         <Swiper loop={true} autoplay={{delay: 1200, disableOnInteraction: false}} grabCursor={false} modules={[Autoplay]} dir='rtl' direction='horizontal'>
-            <SwiperSlide><img className='workDisp' src="src\Components\Media\menu.webp" alt="graphics_1" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src\Components\Media\banner-overview.webp" alt="graphics_2" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src\Components\Media\elegant-minimal.webp" alt="graphics_3" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src\Components\Media\IMG-20221118-WA0003.webp" alt="graphics_4" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src\Components\Media\Real-estate.webp" alt="graphics_5" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src/Components/Media/gifShowcase.webp" alt="graphics_6" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src\Components\Media\movieposter.webp" alt="graphics_7" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Media/menu.webp" alt="graphics_1" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Media/banner-overview.webp" alt="graphics_2" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Media/elegant-minimal.webp" alt="graphics_3" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Media/IMG-20221118-WA0003.webp" alt="graphics_4" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Media/Real-estate.webp" alt="graphics_5" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Media/gifShowcase.webp" alt="graphics_6" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="public/Media/movieposter.webp" alt="graphics_7" /></SwiperSlide>
           </Swiper>
           <h3 style={{textAlign:'center'}}>Graphics</h3>
         </div>
@@ -270,12 +270,12 @@ export const Testimony = () => {
       >
         <SwiperSlide className='speechSlide' style={{transform:'none'}}>
           <div className="speechBox">
-            <img className='qoute' src="src/Components/Media/quote.webp" alt="" />
+            <img className='qoute' src="public/Media/quote.webp" alt="" />
             <div className="speechContent">
               <p>We highly recommend Webmatic Studio for their outstanding website design services. Their talented team, attention to detail, and commitment to delivering exceptional results make them a reliable partner for any business seeking a compelling online presence.</p>
               <div className="speechDetails">
                 <div className="imgbox">
-                  <img src="src/Components/Media/SamratS.webp" alt="" />
+                  <img src="public/Media/SamratS.webp" alt="" />
                 </div>
                 <h3>Samrat Sonawale</h3>
               </div>
@@ -284,12 +284,12 @@ export const Testimony = () => {
         </SwiperSlide>
         <SwiperSlide className='speechSlide'>
           <div className="speechBox">
-            <img className='qoute' src="src/Components/Media/quote.webp" alt="" />
+            <img className='qoute' src="public/Media/quote.webp" alt="" />
             <div className="speechContent">
               <p>Webtrust's web design prowess revolutionized our E-Commerce site, boosting sales and delighting customers with an exceptional online shopping experience.</p>
               <div className="speechDetails">
                 <div className="imgbox">
-                  <img src="src/Components/Media/PetParadise.webp" alt="" />
+                  <img src="public/Media/PetParadise.webp" alt="" />
                 </div>
                 <h3>Pet Paradise</h3>
               </div>
@@ -298,12 +298,12 @@ export const Testimony = () => {
         </SwiperSlide>
         <SwiperSlide className='speechSlide'>
           <div className="speechBox">
-            <img className='qoute' src="src/Components/Media/quote.webp" alt="" />
+            <img className='qoute' src="public/Media/quote.webp" alt="" />
             <div className="speechContent">
               <p>One of the standout qualities of The Webtrust was their professionalism and communication. They are always quick in responding to our inquiries, providing regular updates, and incorporating our feedback effectively.</p>
               <div className="speechDetails">
                 <div className="imgbox">
-                  <img src="src/Components/Media/AkashM.webp" alt="" />
+                  <img src="public/Media/AkashM.webp" alt="" />
                 </div>
                 <h3>Aakash Mishra</h3>
               </div>
@@ -312,12 +312,12 @@ export const Testimony = () => {
         </SwiperSlide>
         <SwiperSlide className='speechSlide'>
           <div className="speechBox">
-            <img className='qoute' src="src/Components/Media/quote.webp" alt="" />
+            <img className='qoute' src="public/Media/quote.webp" alt="" />
             <div className="speechContent">
               <p>We recently worked with The Webtrust for our website redesign, and we couldn't be happier with the outcome. The team at The Webtrust showcased their expertise and creativity in delivering a website that perfectly captured our brand essence.</p>
               <div className="speechDetails">
                 <div className="imgbox">
-                  <img src="src/Components/Media/SwetaK.webp" alt="" />
+                  <img src="public/Media/SwetaK.webp" alt="" />
                 </div>
                 <h3>Shweta Kawale</h3>
               </div>
@@ -326,12 +326,12 @@ export const Testimony = () => {
         </SwiperSlide>
         <SwiperSlide className='speechSlide'>
           <div className="speechBox">
-            <img className='qoute' src="src/Components/Media/quote.webp" alt="" />
+            <img className='qoute' src="public/Media/quote.webp" alt="" />
             <div className="speechContent">
               <p>Our experience with The Webtrust was excellent. They demonstrated a high level of professionalism and expertise throughout the entire website design process.</p>
               <div className="speechDetails">
                 <div className="imgbox">
-                  <img src="src/Components/Media/ShivaniK.webp" alt="" />
+                  <img src="public/Media/ShivaniK.webp" alt="" />
                 </div>
                 <h3>Shivani Kamble</h3>
               </div>
