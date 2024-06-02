@@ -13,7 +13,7 @@
     flex-grow: .8;
 }
 .footTable th, td {
-    text-align: end;
+    text-align: center;
     width: 50%;
 }
 .footerLinks {

@@ -167,7 +167,7 @@ export const ParallaxColumn = () => {
             <SwiperSlide><img className='workDisp' src="src/Components/Templates/TravelSite.png" alt="Design_2" /></SwiperSlide>
             <SwiperSlide><img className='workDisp' src="src/Components/Templates/404Page.png" alt="Design_3" /></SwiperSlide>
             <SwiperSlide><img className='workDisp' src="src/Components/Media/SwatiProjects/FullReactApp.png" alt="Design_4" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src\Components\Media\ezgif.com-video-to-gif-converted.gif" alt="Design_5" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="src/Components/Media/gifShowcase.webp" alt="Design_5" /></SwiperSlide>
             <SwiperSlide><img className='workDisp' src="src/Components/Media/SuyogProjects/Use5.png" alt="Design_6" /></SwiperSlide>
             <SwiperSlide><img className='workDisp' src="src/Components/Media/SuyogProjects/Use1.png" alt="Design_7" /></SwiperSlide>
           </Swiper>
@@ -192,7 +192,7 @@ export const ParallaxColumn = () => {
             <SwiperSlide><img className='workDisp' src="src\Components\Media\elegant-minimal.webp" alt="graphics_3" /></SwiperSlide>
             <SwiperSlide><img className='workDisp' src="src\Components\Media\IMG-20221118-WA0003.webp" alt="graphics_4" /></SwiperSlide>
             <SwiperSlide><img className='workDisp' src="src\Components\Media\Real-estate.webp" alt="graphics_5" /></SwiperSlide>
-            <SwiperSlide><img className='workDisp' src="src\Components\Media\ezgif.com-video-to-gif-converted.gif" alt="graphics_6" /></SwiperSlide>
+            <SwiperSlide><img className='workDisp' src="src/Components/Media/gifShowcase.webp" alt="graphics_6" /></SwiperSlide>
             <SwiperSlide><img className='workDisp' src="src\Components\Media\movieposter.webp" alt="graphics_7" /></SwiperSlide>
           </Swiper>
           <h3 style={{textAlign:'center'}}>Graphics</h3>

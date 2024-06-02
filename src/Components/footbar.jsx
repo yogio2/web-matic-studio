@@ -14,19 +14,19 @@ const FootBar = () => {
                 <tbody>
                 <tr>
                     <th>Quick Links</th>
-                    <th>Connect with Us</th>
+                    <th style={{textAlign:'left'}}>Connect with Us</th>
                 </tr>
                 <tr>
                     <td><NavLink to={'/projects'} className='footerLinks'>Projects</NavLink></td>
-                    <td><FontAwesomeIcon icon={faPhone} /> +91 95119 76919</td>
+                    <td style={{textAlign:'left'}}><FontAwesomeIcon icon={faPhone} /> +91 95119 76919</td>
                 </tr>
                 <tr>
                     <td><NavLink to={'/services'} className='footerLinks'>Services</NavLink></td>
-                    <td><FontAwesomeIcon icon={faEnvelope} /> Siddharthbhowmick@gmail.com</td>
+                    <td style={{textAlign:'left'}}><FontAwesomeIcon icon={faEnvelope} /> Siddharthbhowmick@gmail.com</td>
                 </tr>
                 <tr>
                     <td><NavLink to={'/Creatives'} className='footerLinks'>Creatives</NavLink></td>
-                    <td> <img src="src\Components\Media\bitmap.svg" style={{height:'20px'}} alt="logo" /> <NavLink to={'/'} className='footerLinks'> Web Matic Studio</NavLink></td>
+                    <td style={{textAlign:'left'}}> <img src="src\Components\Media\bitmap.svg" style={{height:'20px'}} alt="logo" /> <NavLink to={'/'} className='footerLinks'> Web Matic Studio</NavLink></td>
                 </tr>
                 <tr>
                     <td><NavLink to={'/contact'} className='footerLinks'>Contact</NavLink></td>
